@@ -6,6 +6,14 @@ cc_library(
     hdrs = [ "add.h" ]
 )
 
+cc_library(
+    name = "mul",
+    srcs = [
+        "mul.cpp",
+    ],
+    hdrs = [ "mul.h" ]
+)
+
 cc_test(
     name = "add_test",
     srcs = [
