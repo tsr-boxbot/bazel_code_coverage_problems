@@ -45,6 +45,10 @@ def _impl(ctx):
             path = "/usr/bin/clang-cpp-13",
         ),
         tool_path(
+            name = "gcov",
+            path = "/usr/bin/llvm-cov-13",
+        ),
+        tool_path(
             name = "llvm-cov",
             path = "/usr/bin/llvm-cov-13",
         ),
